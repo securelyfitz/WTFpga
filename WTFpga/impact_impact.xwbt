@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/home/joefitz/Documents/xilinx/spartan3a/WTFpga/impact.xsl
+OUTFILE=/home/joefitz/Documents/xilinx/spartan3a/WTFpga/impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=/home/joefitz/Documents/xilinx/spartan3a/WTFpga
+LICENSE=iMPACT
+USER_INFO=iMPACT

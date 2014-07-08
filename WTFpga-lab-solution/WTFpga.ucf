@@ -1,0 +1,62 @@
+NET "clk" LOC = "P83"  ;
+
+NET "sw<0>" LOC = "P19"  ;
+NET "sw<1>" LOC = "P82"  ;
+NET "sw<2>" LOC = "P20"  ;
+NET "sw<3>" LOC = "P21"  ;
+NET "sw<4>" LOC = "P34"  ;
+NET "sw<5>" LOC = "P68"  ;
+NET "sw<6>" LOC = "P28"  ;
+NET "sw<7>" LOC = "P32"  ;
+
+NET "key<0>" LOC = "P24"  ;
+#NET "key<1>" LOC = "P23"  ;
+#NET "key<2>" LOC = "P16"  ;
+NET "key<3>" LOC = "P15"  ;
+
+#NET "nRST"   LOC = "P39"  ;
+
+NET "led<0>" LOC = "P77" ;
+NET "led<1>" LOC = "P78" ;
+NET "led<2>" LOC = "P84" ;
+NET "led<3>" LOC = "P85" ;
+NET "led<4>" LOC = "P86" ;
+NET "led<5>" LOC = "P88" ;
+NET "led<6>" LOC = "P89" ;
+NET "led<7>" LOC = "P90" ;
+
+#NET "ext<0>" LOC= "P53" ;
+#NET "ext<1>" LOC= "P46" ;
+#NET "ext<2>" LOC= "P60" ;
+#NET "ext<3>" LOC= "P48" ;
+#NET "ext<4>" LOC= "P59" ;
+#NET "ext<5>" LOC= "P57" ;
+#NET "ext<6>" LOC= "P56" ;
+#NET "ext<7>" LOC= "P52" ;
+#NET "ext<8>" LOC= "P50" ;
+#NET "ext<9>" LOC= "P49" ;
+#NET "ext<10>" LOC= "P44" ;
+#NET "ext<11>" LOC= "P43" ;
+#NET "ext<12>" LOC= "P41" ;
+#NET "ext<13>" LOC= "P40" ;
+#NET "ext<14>" LOC= "P37" ;
+#NET "ext<15>" LOC= "P36" ;
+#NET "ext<16>" LOC= "P35" ;
+
+NET "seg<0>" LOC= "P61" ;
+NET "seg<1>" LOC= "P64" ;
+NET "seg<2>" LOC= "P99" ;
+NET "seg<3>" LOC= "P94" ;
+NET "seg<4>" LOC= "P93" ;
+NET "seg<5>" LOC= "P62" ;
+NET "seg<6>" LOC= "P65" ;
+NET "seg<7>" LOC= "P98" ;
+
+NET "seg_sel<0>" LOC= "P70" ;
+NET "seg_sel<1>" LOC= "P73" ;
+NET "seg_sel<2>" LOC= "P72" ;
+NET "seg_sel<3>" LOC= "P71" ;
+NET "seg_sel<4>" LOC= "P3" ;
+NET "seg_sel<5>" LOC= "P4" ;
+NET "seg_sel<6>" LOC= "P5" ;
+NET "seg_sel<7>" LOC= "P6" ;
