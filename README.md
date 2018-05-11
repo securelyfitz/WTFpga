@@ -24,6 +24,7 @@ To keep it simple, I skip over:
 Changes
 =======
 Version 1.0 targeted a generic Xilinx XC3S200A FPGA board using Xilinx ISE tools. Posted 2014
+
 Version 2.0 is significantly updated, targeting a Digilent Basys 3 board and Xilinx Vivado. Posted 2018
 
 DIY
