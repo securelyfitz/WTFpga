@@ -1,0 +1,398 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu May 10 11:44:00 2018
+# Process ID: 2362
+# Current directory: /home/swift/wtfpga/wtfpga.runs/synth_1
+# Command line: vivado -log WTFpga.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source WTFpga.tcl
+# Log file: /home/swift/wtfpga/wtfpga.runs/synth_1/WTFpga.vds
+# Journal file: /home/swift/wtfpga/wtfpga.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script '/home/swift/.Xilinx/Vivado/Vivado_init.tcl'
+source WTFpga.tcl -notrace
+Command: synth_design -top WTFpga -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 2563 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1257.250 ; gain = 76.914 ; free physical = 694 ; free virtual = 4043
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'WTFpga' [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:3]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:33]
+INFO: [Synth 8-6157] synthesizing module 'nibble_to_seven_seg' [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/seven_seg_hex.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'nibble_to_seven_seg' (1#1) [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/seven_seg_hex.v:3]
+INFO: [Synth 8-6157] synthesizing module 'clkdiv' [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/clkdiv.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'clkdiv' (2#1) [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/clkdiv.v:3]
+INFO: [Synth 8-6157] synthesizing module 'seven_seg_mux' [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/seven_seg_mux.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'seven_seg_mux' (3#1) [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/seven_seg_mux.v:3]
+WARNING: [Synth 8-689] width (8) of port connection 'disp0' does not match port width (7) of module 'seven_seg_mux' [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:45]
+WARNING: [Synth 8-689] width (8) of port connection 'disp1' does not match port width (7) of module 'seven_seg_mux' [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:46]
+WARNING: [Synth 8-689] width (8) of port connection 'disp2' does not match port width (7) of module 'seven_seg_mux' [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:47]
+WARNING: [Synth 8-689] width (8) of port connection 'disp3' does not match port width (7) of module 'seven_seg_mux' [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:48]
+WARNING: [Synth 8-3848] Net disp0 in module/entity WTFpga does not have driver. [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:17]
+WARNING: [Synth 8-3848] Net disp1 in module/entity WTFpga does not have driver. [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:17]
+WARNING: [Synth 8-3848] Net disp2 in module/entity WTFpga does not have driver. [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:17]
+WARNING: [Synth 8-3848] Net disp3 in module/entity WTFpga does not have driver. [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:17]
+INFO: [Synth 8-6155] done synthesizing module 'WTFpga' (4#1) [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:3]
+WARNING: [Synth 8-3917] design WTFpga has port led[14] driven by constant 0
+WARNING: [Synth 8-3917] design WTFpga has port led[13] driven by constant 0
+WARNING: [Synth 8-3917] design WTFpga has port led[12] driven by constant 0
+WARNING: [Synth 8-3917] design WTFpga has port led[11] driven by constant 0
+WARNING: [Synth 8-3917] design WTFpga has port led[10] driven by constant 0
+WARNING: [Synth 8-3917] design WTFpga has port led[9] driven by constant 0
+WARNING: [Synth 8-3917] design WTFpga has port led[8] driven by constant 0
+WARNING: [Synth 8-3917] design WTFpga has port led[7] driven by constant 0
+WARNING: [Synth 8-3917] design WTFpga has port led[6] driven by constant 0
+WARNING: [Synth 8-3917] design WTFpga has port led[5] driven by constant 0
+WARNING: [Synth 8-3917] design WTFpga has port led[4] driven by constant 0
+WARNING: [Synth 8-3917] design WTFpga has port led[3] driven by constant 0
+WARNING: [Synth 8-3917] design WTFpga has port led[2] driven by constant 0
+WARNING: [Synth 8-3917] design WTFpga has port led[1] driven by constant 0
+WARNING: [Synth 8-3331] design WTFpga has unconnected port btnL
+WARNING: [Synth 8-3331] design WTFpga has unconnected port btnR
+WARNING: [Synth 8-3331] design WTFpga has unconnected port btnC
+WARNING: [Synth 8-3331] design WTFpga has unconnected port sw[15]
+WARNING: [Synth 8-3331] design WTFpga has unconnected port sw[14]
+WARNING: [Synth 8-3331] design WTFpga has unconnected port sw[13]
+WARNING: [Synth 8-3331] design WTFpga has unconnected port sw[12]
+WARNING: [Synth 8-3331] design WTFpga has unconnected port sw[11]
+WARNING: [Synth 8-3331] design WTFpga has unconnected port sw[10]
+WARNING: [Synth 8-3331] design WTFpga has unconnected port sw[9]
+WARNING: [Synth 8-3331] design WTFpga has unconnected port sw[8]
+WARNING: [Synth 8-3331] design WTFpga has unconnected port sw[7]
+WARNING: [Synth 8-3331] design WTFpga has unconnected port sw[6]
+WARNING: [Synth 8-3331] design WTFpga has unconnected port sw[5]
+WARNING: [Synth 8-3331] design WTFpga has unconnected port sw[4]
+WARNING: [Synth 8-3331] design WTFpga has unconnected port sw[3]
+WARNING: [Synth 8-3331] design WTFpga has unconnected port sw[2]
+WARNING: [Synth 8-3331] design WTFpga has unconnected port sw[1]
+WARNING: [Synth 8-3331] design WTFpga has unconnected port sw[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1301.859 ; gain = 121.523 ; free physical = 717 ; free virtual = 4063
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin display:disp0[6] to constant 0 [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:43]
+WARNING: [Synth 8-3295] tying undriven pin display:disp0[5] to constant 0 [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:43]
+WARNING: [Synth 8-3295] tying undriven pin display:disp0[4] to constant 0 [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:43]
+WARNING: [Synth 8-3295] tying undriven pin display:disp0[3] to constant 0 [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:43]
+WARNING: [Synth 8-3295] tying undriven pin display:disp0[2] to constant 0 [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:43]
+WARNING: [Synth 8-3295] tying undriven pin display:disp0[1] to constant 0 [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:43]
+WARNING: [Synth 8-3295] tying undriven pin display:disp0[0] to constant 0 [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:43]
+WARNING: [Synth 8-3295] tying undriven pin display:disp1[6] to constant 0 [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:43]
+WARNING: [Synth 8-3295] tying undriven pin display:disp1[5] to constant 0 [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:43]
+WARNING: [Synth 8-3295] tying undriven pin display:disp1[4] to constant 0 [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:43]
+WARNING: [Synth 8-3295] tying undriven pin display:disp1[3] to constant 0 [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:43]
+WARNING: [Synth 8-3295] tying undriven pin display:disp1[2] to constant 0 [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:43]
+WARNING: [Synth 8-3295] tying undriven pin display:disp1[1] to constant 0 [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:43]
+WARNING: [Synth 8-3295] tying undriven pin display:disp1[0] to constant 0 [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:43]
+WARNING: [Synth 8-3295] tying undriven pin display:disp2[6] to constant 0 [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:43]
+WARNING: [Synth 8-3295] tying undriven pin display:disp2[5] to constant 0 [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:43]
+WARNING: [Synth 8-3295] tying undriven pin display:disp2[4] to constant 0 [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:43]
+WARNING: [Synth 8-3295] tying undriven pin display:disp2[3] to constant 0 [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:43]
+WARNING: [Synth 8-3295] tying undriven pin display:disp2[2] to constant 0 [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:43]
+WARNING: [Synth 8-3295] tying undriven pin display:disp2[1] to constant 0 [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:43]
+WARNING: [Synth 8-3295] tying undriven pin display:disp2[0] to constant 0 [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:43]
+WARNING: [Synth 8-3295] tying undriven pin display:disp3[6] to constant 0 [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:43]
+WARNING: [Synth 8-3295] tying undriven pin display:disp3[5] to constant 0 [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:43]
+WARNING: [Synth 8-3295] tying undriven pin display:disp3[4] to constant 0 [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:43]
+WARNING: [Synth 8-3295] tying undriven pin display:disp3[3] to constant 0 [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:43]
+WARNING: [Synth 8-3295] tying undriven pin display:disp3[2] to constant 0 [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:43]
+WARNING: [Synth 8-3295] tying undriven pin display:disp3[1] to constant 0 [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:43]
+WARNING: [Synth 8-3295] tying undriven pin display:disp3[0] to constant 0 [/home/swift/wtfpga/wtfpga.srcs/sources_1/imports/WTFpga/WTFpga.v:43]
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1301.859 ; gain = 121.523 ; free physical = 711 ; free virtual = 4058
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1301.859 ; gain = 121.523 ; free physical = 711 ; free virtual = 4058
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/swift/wtfpga/wtfpga.srcs/constrs_1/imports/xdc/Basys-3-Master.xdc]
+WARNING: [Vivado 12-507] No nets matched 'btnU_IBUF'. [/home/swift/wtfpga/wtfpga.srcs/constrs_1/imports/xdc/Basys-3-Master.xdc:115]
+Finished Parsing XDC File [/home/swift/wtfpga/wtfpga.srcs/constrs_1/imports/xdc/Basys-3-Master.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [/home/swift/wtfpga/wtfpga.srcs/constrs_1/imports/xdc/Basys-3-Master.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/WTFpga_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/swift/wtfpga/wtfpga.srcs/constrs_1/imports/xdc/Basys-3-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/WTFpga_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/WTFpga_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1623.172 ; gain = 0.000 ; free physical = 446 ; free virtual = 3835
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:58 ; elapsed = 00:01:32 . Memory (MB): peak = 1623.172 ; gain = 442.836 ; free physical = 553 ; free virtual = 3918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:58 ; elapsed = 00:01:32 . Memory (MB): peak = 1623.172 ; gain = 442.836 ; free physical = 553 ; free virtual = 3918
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:58 ; elapsed = 00:01:32 . Memory (MB): peak = 1623.172 ; gain = 442.836 ; free physical = 555 ; free virtual = 3919
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'current_reg' in module 'seven_seg_mux'
+INFO: [Synth 8-5544] ROM "current" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_reg' in module 'fsm2423ED100'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:59 ; elapsed = 00:01:32 . Memory (MB): peak = 1623.172 ; gain = 442.836 ; free physical = 546 ; free virtual = 3910
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      7 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module seven_seg_mux 
+Detailed RTL Component Info : 
++---Registers : 
+	                7 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      7 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3917] design WTFpga has port led[14] driven by constant 0
+WARNING: [Synth 8-3917] design WTFpga has port led[13] driven by constant 0
+WARNING: [Synth 8-3917] design WTFpga has port led[12] driven by constant 0
+WARNING: [Synth 8-3917] design WTFpga has port led[11] driven by constant 0
+WARNING: [Synth 8-3917] design WTFpga has port led[10] driven by constant 0
+WARNING: [Synth 8-3917] design WTFpga has port led[9] driven by constant 0
+WARNING: [Synth 8-3917] design WTFpga has port led[8] driven by constant 0
+WARNING: [Synth 8-3917] design WTFpga has port led[7] driven by constant 0
+WARNING: [Synth 8-3917] design WTFpga has port led[6] driven by constant 0
+WARNING: [Synth 8-3917] design WTFpga has port led[5] driven by constant 0
+WARNING: [Synth 8-3917] design WTFpga has port led[4] driven by constant 0
+WARNING: [Synth 8-3917] design WTFpga has port led[3] driven by constant 0
+WARNING: [Synth 8-3917] design WTFpga has port led[2] driven by constant 0
+WARNING: [Synth 8-3917] design WTFpga has port led[1] driven by constant 0
+WARNING: [Synth 8-3331] design WTFpga has unconnected port btnL
+WARNING: [Synth 8-3331] design WTFpga has unconnected port btnR
+WARNING: [Synth 8-3331] design WTFpga has unconnected port btnC
+WARNING: [Synth 8-3331] design WTFpga has unconnected port sw[15]
+WARNING: [Synth 8-3331] design WTFpga has unconnected port sw[14]
+WARNING: [Synth 8-3331] design WTFpga has unconnected port sw[13]
+WARNING: [Synth 8-3331] design WTFpga has unconnected port sw[12]
+WARNING: [Synth 8-3331] design WTFpga has unconnected port sw[11]
+WARNING: [Synth 8-3331] design WTFpga has unconnected port sw[10]
+WARNING: [Synth 8-3331] design WTFpga has unconnected port sw[9]
+WARNING: [Synth 8-3331] design WTFpga has unconnected port sw[8]
+WARNING: [Synth 8-3331] design WTFpga has unconnected port sw[7]
+WARNING: [Synth 8-3331] design WTFpga has unconnected port sw[6]
+WARNING: [Synth 8-3331] design WTFpga has unconnected port sw[5]
+WARNING: [Synth 8-3331] design WTFpga has unconnected port sw[4]
+WARNING: [Synth 8-3331] design WTFpga has unconnected port sw[3]
+WARNING: [Synth 8-3331] design WTFpga has unconnected port sw[2]
+WARNING: [Synth 8-3331] design WTFpga has unconnected port sw[1]
+WARNING: [Synth 8-3331] design WTFpga has unconnected port sw[0]
+INFO: [Synth 8-3886] merging instance 'display/segout_reg[0]' (FD) to 'display/segout_reg[6]'
+INFO: [Synth 8-3886] merging instance 'display/segout_reg[1]' (FD) to 'display/segout_reg[6]'
+INFO: [Synth 8-3886] merging instance 'display/segout_reg[2]' (FD) to 'display/segout_reg[6]'
+INFO: [Synth 8-3886] merging instance 'display/segout_reg[3]' (FD) to 'display/segout_reg[6]'
+INFO: [Synth 8-3886] merging instance 'display/segout_reg[4]' (FD) to 'display/segout_reg[6]'
+INFO: [Synth 8-3886] merging instance 'display/segout_reg[5]' (FD) to 'display/segout_reg[6]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\display/segout_reg[6] )
+WARNING: [Synth 8-3332] Sequential element (display/segout_reg[6]) is unused and will be removed from module WTFpga.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:59 ; elapsed = 00:01:33 . Memory (MB): peak = 1623.172 ; gain = 442.836 ; free physical = 534 ; free virtual = 3901
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:14 ; elapsed = 00:01:54 . Memory (MB): peak = 1623.172 ; gain = 442.836 ; free physical = 375 ; free virtual = 3771
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:14 ; elapsed = 00:01:54 . Memory (MB): peak = 1623.172 ; gain = 442.836 ; free physical = 378 ; free virtual = 3775
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:14 ; elapsed = 00:01:54 . Memory (MB): peak = 1623.172 ; gain = 442.836 ; free physical = 378 ; free virtual = 3774
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4649] Removing BlackBox instance nibble0 of module nibble_to_seven_seg having unconnected or no output ports
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:16 ; elapsed = 00:01:56 . Memory (MB): peak = 1623.172 ; gain = 442.836 ; free physical = 378 ; free virtual = 3774
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:16 ; elapsed = 00:01:56 . Memory (MB): peak = 1623.172 ; gain = 442.836 ; free physical = 378 ; free virtual = 3774
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:16 ; elapsed = 00:01:56 . Memory (MB): peak = 1623.172 ; gain = 442.836 ; free physical = 378 ; free virtual = 3774
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:16 ; elapsed = 00:01:56 . Memory (MB): peak = 1623.172 ; gain = 442.836 ; free physical = 378 ; free virtual = 3774
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:16 ; elapsed = 00:01:56 . Memory (MB): peak = 1623.172 ; gain = 442.836 ; free physical = 378 ; free virtual = 3774
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:16 ; elapsed = 00:01:56 . Memory (MB): peak = 1623.172 ; gain = 442.836 ; free physical = 378 ; free virtual = 3774
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     4|
+|3     |LUT1   |     5|
+|4     |LUT4   |     4|
+|5     |FDRE   |    20|
+|6     |IBUF   |     3|
+|7     |OBUF   |    27|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------+--------------+------+
+|      |Instance          |Module        |Cells |
++------+------------------+--------------+------+
+|1     |top               |              |    64|
+|2     |  display         |seven_seg_mux |    12|
+|3     |  displayClockGen |clkdiv        |    21|
++------+------------------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:16 ; elapsed = 00:01:56 . Memory (MB): peak = 1623.172 ; gain = 442.836 ; free physical = 378 ; free virtual = 3774
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 34 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:58 ; elapsed = 00:01:09 . Memory (MB): peak = 1623.172 ; gain = 121.523 ; free physical = 433 ; free virtual = 3829
+Synthesis Optimization Complete : Time (s): cpu = 00:01:16 ; elapsed = 00:01:56 . Memory (MB): peak = 1623.180 ; gain = 442.836 ; free physical = 441 ; free virtual = 3837
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+31 Infos, 106 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:20 ; elapsed = 00:02:00 . Memory (MB): peak = 1623.180 ; gain = 442.930 ; free physical = 430 ; free virtual = 3827
+INFO: [Common 17-1381] The checkpoint '/home/swift/wtfpga/wtfpga.runs/synth_1/WTFpga.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file WTFpga_utilization_synth.rpt -pb WTFpga_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.19 ; elapsed = 00:00:00.39 . Memory (MB): peak = 1647.184 ; gain = 0.000 ; free physical = 429 ; free virtual = 3826
+INFO: [Common 17-206] Exiting Vivado at Thu May 10 11:46:27 2018...

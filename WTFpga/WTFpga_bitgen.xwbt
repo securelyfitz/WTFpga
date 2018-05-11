@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=/home/joefitz/Documents/xilinx/spartan3a/WTFpga/WTFpga.ncd
-OUTFILE=/home/joefitz/Documents/xilinx/spartan3a/WTFpga/WTFpga.bit
-FAMILY=Spartan3A and Spartan3AN
-PART=xc3s200a-5vq100
-WORKINGDIR=/home/joefitz/Documents/xilinx/spartan3a/WTFpga
-LICENSE=WebPack
-USER_INFO=210778393_0_0_436
