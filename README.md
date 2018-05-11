@@ -5,7 +5,9 @@ WTFpga
 Purpose
 =======
 The purpose of this workshop is to jumpstart people new to FPGAs, getting them to the point where they can understand and make minor changes to Verilog designs, and see the results on hardware.
+
 When delivered as a workshop, laptops have Vivado preinstalled and the project preloaded so that attendees can get straight to toggling switches and flashing LEDs.
+
 The scope is intentionally limited to make sure it's doable in a couple hours time, so that attendees don't need to make a huge time commitment to get a hands-on understanding of FPGAs and Verilog
 
 What's not covered
@@ -21,14 +23,15 @@ To keep it simple, I skip over:
 
 Changes
 =======
-Version 1.0 targeted a generic Xilinx XC3S200A FPGA board using Xilinx ISE tools.
-Version 2.0 is significantly updated, targeting a Digilent Basys 3 board and Xilinx Vivado.
+Version 1.0 targeted a generic Xilinx XC3S200A FPGA board using Xilinx ISE tools. Posted 2014
+Version 2.0 is significantly updated, targeting a Digilent Basys 3 board and Xilinx Vivado. Posted 2018
 
 DIY
 ===
 If you'd like to do this workshop on your own, before you start, you'll need to:
 1. Install Xilinx Vivado. The free WebPack version is sufficent: https://www.xilinx.com/products/design-tools/vivado.html
 2. Aquire a Diglilent Basys 3 Board. Students qualify for an academic discount: http://digilent.com/basys3
+3. Walk through the pdf manual included. `pdfbook --lettterpaper wtfpgamanual.pdf` should prepare it for printing as a booklet if you prefer.
 
 Future Work
 ===========
