@@ -27,16 +27,19 @@ Version 1.0 targeted a generic Xilinx XC3S200A FPGA board using Xilinx ISE tools
 
 Version 2.0 is significantly updated, targeting a Digilent Basys 3 board and Xilinx Vivado. Posted 2018
 
+Version 3.0 targetting the iCEBreaker dev board and using fully open source sythesis flow. Posted late 2018
+
 DIY
 ===
-If you'd like to do this workshop on your own, before you start, you'll need to:
+If you'd like to do the V2.0 workshop on your own, using the xilinx dev board and tools, before you start, you'll need to:
 1. Install Xilinx Vivado. The free WebPack version is sufficent: https://www.xilinx.com/products/design-tools/vivado.html
 2. Aquire a Diglilent Basys 3 Board. Students qualify for an academic discount: http://digilent.com/basys3
 3. Walk through the pdf manual included. `pdfbook --lettterpaper wtfpgamanual.pdf` should prepare it for printing as a booklet if you prefer.
 
-Future Work
-===========
-I hope to port this workshop to the Icestorm toolchain. I haven't so far since I haven't seen the right board - one with switches, buttons, LEDs, and 7-segment displays.
+If you'd like to do the V3.0 workshop on your own, using the iCEBreaker dev board and tools, before you start, you'll need to:
+1. Install icestudio, nextpnr-ice40, yosys. For the information on how to install them refer to http://www.clifford.at/icestorm/#install
+2. Aquire a 1BitSquared iCEBreaker board. https://github.com/icebreaker-fpga/icebreaker
+3. Walk through the pdf manual included. `pdfbook --lettterpaper wtfpgamanual.pdf` should prepare it for printing as a booklet if you prefer.
 
 Derivative use
 ==============
