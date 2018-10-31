@@ -28,7 +28,7 @@ module top(
 			 sw;
 
 //always @ blocks can go here
-    always @(posedge ~BTN_N)
+    always @(negedge BTN_N)
 //	commmands-to-run-when-triggered;
 	storedValue<=sw;
 
