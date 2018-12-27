@@ -2,7 +2,7 @@
 //module name and inputs/outputs
 module nibble_to_seven_seg(
     input [3:0] nibblein,
-    output reg [7:0] segout
+    output reg [6:0] segout
     );
 
 //	 always block with sensitivitiy list. Triggered whenever something in the list changes
