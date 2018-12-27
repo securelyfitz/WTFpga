@@ -5,8 +5,7 @@ module nibble_to_seven_seg(
     output reg [6:0] segout
     );
 
-//	 always block with sensitivitiy list. Triggered whenever something in the list changes
-always @(nibblein)
+always @*
     case (nibblein)
         4'h0: segout = ~7'b0111111;
         4'h1: segout = ~7'b0000110;
