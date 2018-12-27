@@ -28,10 +28,10 @@ module top(
 			 sw;
 
 //always @ blocks can go here
-    always @(negedge BTN_N)
+    always @(negedge BTN_N) begin
 //	commmands-to-run-when-triggered;
 	storedValue<=sw;
-
+    end
 //instantiate modules here
 
 	nibble_to_seven_seg nibble0(

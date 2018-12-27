@@ -27,8 +27,9 @@ module top(
 	assign wire2=BTN3;
 
 //always @ blocks can go here
-//	always @(sensitivity list)
+//	always @(sensitivity list) begin
 //		commmands-to-run-when-triggered;
+//	end
 
 //instantiate modules here
 	nibble_to_seven_seg nibble0(
