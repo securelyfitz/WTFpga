@@ -198,7 +198,9 @@ case "$(uname)" in
 	;;
 	Darwin)
 	echo "Found Darwin OS."
-	QT5_PREFIX=/usr/local/opt/qt5
+	QT5_PREFIX="/usr/local/opt/qt5"
+	PATH="/usr/local/opt/bison/bin:$PATH"
+	LDFLAGS="-L/usr/local/opt/bison/lib"
 	;;
 	CYGWIN*)
 	echo "Found CygWin that means Windows most likely."
