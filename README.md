@@ -30,9 +30,15 @@ Version 2.0 is significantly updated, targeting a Digilent Basys 3 board and Xil
 DIY
 ===
 If you'd like to do this workshop on your own, before you start, you'll need to:
-1. Install Xilinx Vivado. The free WebPack version is sufficent: https://www.xilinx.com/products/design-tools/vivado.html
-2. Aquire a Diglilent Basys 3 Board. Students qualify for an academic discount: http://digilent.com/basys3
-3. Walk through the pdf manual included. `pdfbook --lettterpaper wtfpgamanual.pdf` should prepare it for printing as a booklet if you prefer.
+1. Install Xilinx Vivado. 
+  - The free WebPack version is sufficent: https://www.xilinx.com/products/design-tools/vivado.html. 
+  - Note: this is going to take LOTS of disk space - 20gb for the installer, 20gb install space, maybe more....
+2. Aquire a Diglilent Basys 3 Board. 
+  - Students qualify for an academic discount: http://digilent.com/basys3
+4. Clone this repository to get all the necessary project files
+5. Walk through the pdf manual included. 
+  - `pdfbook --lettterpaper wtfpgamanual.pdf` should prepare it for printing as a booklet if you prefer.
+  - open the project you cloned in the vivado tools you installed when you get to "configuring the FPGA"
 
 Future Work
 ===========
