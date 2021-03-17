@@ -38,7 +38,7 @@ If you'd like to do this workshop on your own, before you start, you'll need to:
 4. Clone this repository to get all the necessary project files
 5. Walk through the pdf manual included. 
   - `pdfbook --lettterpaper wtfpgamanual.pdf` should prepare it for printing as a booklet if you prefer.
-  - open the project you cloned in the vivado tools you installed when you get to "configuring the FPGA"
+  - When you get to "configuring the FPGA" open the project file, wtfpga/wtfpga.xpr
 
 Future Work
 ===========
