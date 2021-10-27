@@ -1,3 +1,8 @@
+DISCLAIMER
+==========
+
+This workshop is outdated. There is a more up to date [iCEBreaker FPGA workshop](https://github.com/icebreaker-fpga/icebreaker-workshop).
+
 WTFpga
 ======
 2 hour crash course in FPGAs and Verilog
