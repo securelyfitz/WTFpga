@@ -1,3 +1,8 @@
+DISCLAIMER
+==========
+
+This workshop is outdated. There is a more up to date [iCEBreaker FPGA workshop](https://github.com/icebreaker-fpga/icebreaker-workshop).
+
 WTFpga
 ======
 2 hour crash course in FPGAs and Verilog
@@ -27,22 +32,22 @@ Version 1.0 targeted a generic Xilinx XC3S200A FPGA board using Xilinx ISE tools
 
 Version 2.0 is significantly updated, targeting a Digilent Basys 3 board and Xilinx Vivado. Posted 2018
 
+Version 3.0 targetting the iCEBreaker dev board and using fully open source sythesis flow. Posted late 2018
+
 DIY
 ===
-If you'd like to do this workshop on your own, before you start, you'll need to:
-1. Install Xilinx Vivado. 
-  - The free WebPack version is sufficent: https://www.xilinx.com/products/design-tools/vivado.html. 
-  - Note: this is going to take LOTS of disk space - 20gb for the installer, 20gb install space, maybe more....
-2. Aquire a Diglilent Basys 3 Board. 
-  - Students qualify for an academic discount: http://digilent.com/basys3
-4. Clone this repository to get all the necessary project files
-5. Walk through the pdf manual included. 
-  - `pdfbook --lettterpaper wtfpgamanual.pdf` should prepare it for printing as a booklet if you prefer.
-  - When you get to "configuring the FPGA" open the project file, wtfpga/wtfpga.xpr
+If you'd like to do the V3.0 workshop on your own, using the iCEBreaker dev board and tools, before you start, you'll need to:
 
-Future Work
-===========
-I hope to port this workshop to the Icestorm toolchain. I haven't so far since I haven't seen the right board - one with switches, buttons, LEDs, and 7-segment displays.
+1. Install icestudio, nextpnr-ice40, yosys. For the information on how to install them refer to http://www.clifford.at/icestorm/#install
+
+2. Aquire a 1BitSquared iCEBreaker board and the iCEBreaker 7segment
+display and DIP switch PMOD
+boards. https://github.com/icebreaker-fpga/icebreaker  https://github.com/icebreaker-fpga/icebreaker-pmod
+
+3. Attach the 7 segment board to iCEBreaker port P1A, and attach the DIP switch board to iCEBreaker port P1B.
+
+4. Walk through the pdf manual included. `pdfbook2 --paper=letter --inner-margin=0 wtfpgamanual.pdf` should prepare it for printing as a booklet if you prefer.
+
 
 Derivative use
 ==============
