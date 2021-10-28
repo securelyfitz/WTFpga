@@ -48,6 +48,7 @@ boards. https://github.com/icebreaker-fpga/icebreaker  https://github.com/icebre
 
 4. Walk through the pdf manual included. `pdfbook2 --paper=letter --inner-margin=0 wtfpgamanual.pdf` should prepare it for printing as a booklet if you prefer.
 
+
 Derivative use
 ==============
 Please use and distribute this material! If you need a more permissive license let me know!
